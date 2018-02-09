@@ -1,0 +1,114 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "FlameTanks (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanks Win64 Debug Build",
+			"program": "D:\\UE4Projects\\Section_04\\FlameTanks\\Binaries\\Win64\\FlameTanks-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanks (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanks Win64 DebugGame Build",
+			"program": "D:\\UE4Projects\\Section_04\\FlameTanks\\Binaries\\Win64\\FlameTanks-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanks (Development)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanks Win64 Development Build",
+			"program": "D:\\UE4Projects\\Section_04\\FlameTanks\\Binaries\\Win64\\FlameTanks.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanks (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanks Win64 Shipping Build",
+			"program": "D:\\UE4Projects\\Section_04\\FlameTanks\\Binaries\\Win64\\FlameTanks-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanks (Test)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanks Win64 Test Build",
+			"program": "D:\\UE4Projects\\Section_04\\FlameTanks\\Binaries\\Win64\\FlameTanks-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanksEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanksEditor Win64 Debug Build",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanksEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanksEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlameTanksEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "FlameTanksEditor Win64 Development Build",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject"
+			],
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		}
+	]
+}

@@ -1,0 +1,617 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "FlameTanks Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Shipping",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Shipping",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Test",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win32",
+				"Test",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Shipping",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Shipping",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Test",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"Win64",
+				"Test",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Shipping",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Shipping",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Test",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanks HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanks",
+				"HTML5",
+				"Test",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanksEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanksEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanksEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanksEditor",
+				"Win64",
+				"Debug",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanksEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanksEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanksEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanksEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanksEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlameTanksEditor",
+				"Win64",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "FlameTanksEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlameTanksEditor",
+				"Win64",
+				"Development",
+				"D:\\UE4Projects\\Section_04\\FlameTanks\\FlameTanks.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.18"
+			}
+		}
+	]
+}

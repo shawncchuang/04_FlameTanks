@@ -1,0 +1,8 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"D:/UE4Projects/Section_04/FlameTanks/.vscode": true,
+		"D:/UE4Projects/Section_04/FlameTanks/Content": true,
+		"D:/UE4Projects/Section_04/FlameTanks/Intermediate": true
+	}
+}
