@@ -1,18 +1,18 @@
 # FlameTanks
 An open-world head-to-head tank fight with simple AI, terrain, and advanced control system in Unreal 4
 
-**Note for users of UE 4.16+:** you will need to update the build files for the project to run. You can see an example of what needs changing is [this upgrade commit](https://github.com/shawncchuang/04_FlameTanks).
+**Note for users of UE 4.16+:** You can see an example of what needs changing is [this upgrade commit(https://github.com/shawncchuang/04_FlameTanks).
 
-### 1 Intro, Notes & Section 4 Assets ###
+### FT01 Intro, Notes & Section 4 Assets ###
 
-+ Battle Tank is an open world tank fight
++ Flame Tank is an open world tank fight
 + This will be a head to head battle 
 + Other player can be human or simple AI 
 + Heavy focus on control systems 
 + Also learning terrains, UI, terrain sculpting & more 
 + Dive right in and enjoy yourself!
 
-### S04 Game Design Document (GDD) ###
+### FT02 Game Design Document (GDD) ###
 
 + The Concept, Rules and (initial) requirements
 + We’ll iterate around a loop while making this game 
