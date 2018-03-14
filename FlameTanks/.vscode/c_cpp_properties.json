@@ -5,6 +5,8 @@
 			"includePath": [
 				"C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Source",
 				"D:/UE4Projects/Section_04/FlameTanks/Source",
+				"D:/UE4Projects/Section_04/FlameTanks/Source/FlameTanks/Public",
+				"D:/UE4Projects/Section_04/FlameTanks/Intermediate/Build/Win64/UE4Editor/Inc/FlameTanks",
 				"D:/UE4Projects/Section_04/FlameTanks/Source/FlameTanks",
 				"C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public",
 				"C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/Internationalization",
@@ -335,7 +337,7 @@
 				"C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Source/Runtime/AudioMixer/Public/DSP",
 				"C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Intermediate/Build/Win64/UE4Editor/Inc/AudioMixer",
 				"C:/Program Files (x86)/Epic Games/UE_4.18/Engine/Source/Runtime/AudioMixer",
-				"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.12.25827/INCLUDE",
+				"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.13.26128/INCLUDE",
 				"C:/Program Files (x86)/Windows Kits/10/include/10.0.16299.0/ucrt",
 				"C:/Program Files (x86)/Windows Kits/NETFXSDK/4.6.1/include/um",
 				"C:/Program Files (x86)/Windows Kits/8.1/include/shared",

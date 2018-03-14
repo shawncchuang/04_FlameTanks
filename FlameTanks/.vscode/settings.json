@@ -3,6 +3,7 @@
 	"files.exclude": {
 		"D:/UE4Projects/Section_04/FlameTanks/.vscode": true,
 		"D:/UE4Projects/Section_04/FlameTanks/Content": true,
-		"D:/UE4Projects/Section_04/FlameTanks/Intermediate": true
+		"D:/UE4Projects/Section_04/FlameTanks/Intermediate": true,
+		"D:/UE4Projects/Section_04/FlameTanks/Saved": true
 	}
 }
